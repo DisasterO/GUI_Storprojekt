@@ -19,35 +19,35 @@ namespace test21 {
 
         private void button1_Click(object sender, EventArgs e) {
             using (StreamWriter writer = File.CreateText(Environment.GetFolderPath( Environment.SpecialFolder.Desktop) + @"/save.txt")) {
-                SaveRadioButtonAnswer(A1, writer);
-                SaveRadioButtonAnswer(B1, writer);
-                SaveRadioButtonAnswer(C1, writer);
-                SaveRadioButtonAnswer(A2, writer);
-                SaveRadioButtonAnswer(B2, writer);
-                SaveRadioButtonAnswer(C2, writer);
-                SaveRadioButtonAnswer(A3, writer);
-                SaveRadioButtonAnswer(B3, writer);
-                SaveRadioButtonAnswer(C3, writer);
-                SaveRadioButtonAnswer(A4, writer);
-                SaveRadioButtonAnswer(B4, writer);
-                SaveRadioButtonAnswer(C4, writer);
-                SaveRadioButtonAnswer(A5, writer);
-                SaveRadioButtonAnswer(B5, writer);
-                SaveRadioButtonAnswer(C5, writer);
-                SaveRadioButtonAnswer(A6, writer);
-                SaveRadioButtonAnswer(B6, writer);
-                SaveRadioButtonAnswer(C6, writer);
-                SaveRadioButtonAnswer(A7, writer);
-                SaveRadioButtonAnswer(B7, writer);
-                SaveRadioButtonAnswer(C7, writer);
-                SaveRadioButtonAnswer(A8, writer);
-                SaveRadioButtonAnswer(B8, writer);
-                SaveRadioButtonAnswer(C8, writer);
-                SaveTextBoxAnswer(textBox1, writer);
-                SaveTextBoxAnswer(textBox2, writer);
-                SaveTextBoxAnswer(textBox3, writer);
-                SaveTextBoxAnswer(textBox4, writer);
-                SaveTextBoxAnswer(textBox5, writer);
+                SaveRadioButtonAnswer(A1, writer, 1);
+                SaveRadioButtonAnswer(B1, writer, 1);
+                SaveRadioButtonAnswer(C1, writer, 1);
+                SaveRadioButtonAnswer(A2, writer, 2);
+                SaveRadioButtonAnswer(B2, writer, 2);
+                SaveRadioButtonAnswer(C2, writer, 2);
+                SaveRadioButtonAnswer(A3, writer, 3);
+                SaveRadioButtonAnswer(B3, writer, 3);
+                SaveRadioButtonAnswer(C3, writer, 3);
+                SaveRadioButtonAnswer(A4, writer, 4);
+                SaveRadioButtonAnswer(B4, writer, 4);
+                SaveRadioButtonAnswer(C4, writer, 4);
+                SaveRadioButtonAnswer(A5, writer, 5);
+                SaveRadioButtonAnswer(B5, writer, 5);
+                SaveRadioButtonAnswer(C5, writer, 5);
+                SaveRadioButtonAnswer(A6, writer, 6);
+                SaveRadioButtonAnswer(B6, writer, 6);
+                SaveRadioButtonAnswer(C6, writer, 6);
+                SaveRadioButtonAnswer(A7, writer, 7);
+                SaveRadioButtonAnswer(B7, writer, 7);
+                SaveRadioButtonAnswer(C7, writer, 7);
+                SaveRadioButtonAnswer(A8, writer, 8);
+                SaveRadioButtonAnswer(B8, writer, 8);
+                SaveRadioButtonAnswer(C8, writer, 8);
+                SaveTextBoxAnswer(textBox1, writer, 9);
+                SaveTextBoxAnswer(textBox2, writer, 10);
+                SaveTextBoxAnswer(textBox3, writer, 11);
+                SaveTextBoxAnswer(textBox4, writer, 12);
+                SaveTextBoxAnswer(textBox5, writer, 13);
                 MessageBox.Show("File saved to: " + @"/save.txt", "File Saved", MessageBoxButtons.OK);
                 string resultFilePath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"/results.txt";
                 SaveResults(resultFilePath);
@@ -56,17 +56,17 @@ namespace test21 {
                 this.Close();
             }
         }
-        
-        private void SaveRadioButtonAnswer(RadioButton radioButton, StreamWriter writer) {
+
+        private void SaveRadioButtonAnswer(RadioButton radioButton, StreamWriter writer, int questionNumber) {
             if (radioButton.Checked) {
                 string radioButtonAnswer = radioButton.Name;
-                writer.WriteLine("Radio Button Answer: " + radioButtonAnswer);
+                writer.WriteLine("Fråga " + questionNumber + " (Flervals fråga): " + radioButtonAnswer);
                 answers.Add(radioButtonAnswer);
             }
         }
-        private void SaveTextBoxAnswer(TextBox textBoxAnswer, StreamWriter writer) {
+        private void SaveTextBoxAnswer(TextBox textBoxAnswer, StreamWriter writer, int questionNumber) {
             string answer = textBoxAnswer.Text;
-            writer.WriteLine("Text Answer: " + answer);
+            writer.WriteLine("Fråga " + questionNumber + " (Text fråga): " + answer);
             answers.Add(answer);
         }
         private void SaveResults(string resultFilePath) {
