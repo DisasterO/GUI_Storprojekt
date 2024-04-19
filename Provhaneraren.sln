@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test21", "test21\test21.csproj", "{C5C31CDD-C781-4C15-AB2E-5CED192E07D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provhaneraren", "Provhaneraren\Provhaneraren.csproj", "{C6F84C91-1059-4386-9A07-08C730C5F6A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C5C31CDD-C781-4C15-AB2E-5CED192E07D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C5C31CDD-C781-4C15-AB2E-5CED192E07D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C5C31CDD-C781-4C15-AB2E-5CED192E07D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C5C31CDD-C781-4C15-AB2E-5CED192E07D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6F84C91-1059-4386-9A07-08C730C5F6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F84C91-1059-4386-9A07-08C730C5F6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6F84C91-1059-4386-9A07-08C730C5F6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6F84C91-1059-4386-9A07-08C730C5F6A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {BFDFDB17-2AED-45B5-8121-3436846E9A3A}
+		SolutionGuid = {77C69B72-0C9A-498A-94F1-EF0D0CC4C0AD}
 	EndGlobalSection
 EndGlobal

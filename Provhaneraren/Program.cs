@@ -1,4 +1,4 @@
-namespace test21 {
+namespace Provhaneraren {
     internal static class Program {
         /// <summary>
         ///  The main entry point for the application.
