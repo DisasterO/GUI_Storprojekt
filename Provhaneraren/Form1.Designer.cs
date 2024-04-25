@@ -171,7 +171,6 @@
             this.A2.Name = "A2";
             this.A2.Size = new System.Drawing.Size(294, 44);
             this.A2.TabIndex = 1;
-            this.A2.TabStop = true;
             this.A2.Text = "En sekvens av siffror och bokstäver som \r\nrepresenterar text och grafik.\r\n";
             this.A2.UseVisualStyleBackColor = true;
             // 
@@ -183,7 +182,6 @@
             this.C2.Name = "C2";
             this.C2.Size = new System.Drawing.Size(399, 24);
             this.C2.TabIndex = 3;
-            this.C2.TabStop = true;
             this.C2.Text = "En form av kryptering för att skydda digital information.";
             this.C2.UseVisualStyleBackColor = true;
             // 
@@ -195,7 +193,6 @@
             this.B2.Name = "B2";
             this.B2.Size = new System.Drawing.Size(404, 44);
             this.B2.TabIndex = 2;
-            this.B2.TabStop = true;
             this.B2.Text = "Ett system med endast två siffror, oftast 0 och 1, används\r\nför att representera " +
     "data i datorsystem\r\n";
             this.B2.UseVisualStyleBackColor = true;
@@ -210,7 +207,7 @@
             this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox3.Size = new System.Drawing.Size(436, 165);
+            this.groupBox3.Size = new System.Drawing.Size(457, 165);
             this.groupBox3.TabIndex = 6;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "3. Vad gör en kompilator? ";
@@ -223,7 +220,6 @@
             this.C3.Name = "C3";
             this.C3.Size = new System.Drawing.Size(372, 24);
             this.C3.TabIndex = 3;
-            this.C3.TabStop = true;
             this.C3.Text = "Hanterar databasförfrågningar och sökoperationer. ";
             this.C3.UseVisualStyleBackColor = true;
             // 
@@ -243,7 +239,6 @@
             this.A3.Name = "A3";
             this.A3.Size = new System.Drawing.Size(405, 44);
             this.A3.TabIndex = 1;
-            this.A3.TabStop = true;
             this.A3.Text = "Översätter källkod till maskinkod för att exekveras direkt \r\nav datorn. ";
             this.A3.UseVisualStyleBackColor = true;
             // 
@@ -255,7 +250,6 @@
             this.B3.Name = "B3";
             this.B3.Size = new System.Drawing.Size(352, 24);
             this.B3.TabIndex = 2;
-            this.B3.TabStop = true;
             this.B3.Text = "Skapar grafiska användargränssnitt för program. ";
             this.B3.UseVisualStyleBackColor = true;
             // 
@@ -281,7 +275,6 @@
             this.A4.Name = "A4";
             this.A4.Size = new System.Drawing.Size(369, 44);
             this.A4.TabIndex = 11;
-            this.A4.TabStop = true;
             this.A4.Text = "Betonar användningen av klasser och objekt för att \r\norganisera och strukturera k" +
     "od. ";
             this.A4.UseVisualStyleBackColor = true;
@@ -294,7 +287,6 @@
             this.C4.Name = "C4";
             this.C4.Size = new System.Drawing.Size(287, 44);
             this.C4.TabIndex = 10;
-            this.C4.TabStop = true;
             this.C4.Text = "Använder enbart numeriska värden för \r\ndatarepresentation. ";
             this.C4.UseVisualStyleBackColor = true;
             // 
@@ -306,7 +298,6 @@
             this.B4.Name = "B4";
             this.B4.Size = new System.Drawing.Size(370, 24);
             this.B4.TabIndex = 9;
-            this.B4.TabStop = true;
             this.B4.Text = "Fokuserar på att skriva linjär, procedurbaserad kod. ";
             this.B4.UseVisualStyleBackColor = true;
             // 
@@ -341,7 +332,6 @@
             this.A5.Name = "A5";
             this.A5.Size = new System.Drawing.Size(444, 44);
             this.A5.TabIndex = 1;
-            this.A5.TabStop = true;
             this.A5.Text = "En metod för manuell programmering av datorer för specifika \r\nuppgifter.";
             this.A5.UseVisualStyleBackColor = true;
             // 
@@ -353,7 +343,6 @@
             this.C5.Name = "C5";
             this.C5.Size = new System.Drawing.Size(350, 24);
             this.C5.TabIndex = 3;
-            this.C5.TabStop = true;
             this.C5.Text = "Enbart en teoretisk idé utan praktisk tillämpning.";
             this.C5.UseVisualStyleBackColor = true;
             // 
@@ -365,7 +354,6 @@
             this.B5.Name = "B5";
             this.B5.Size = new System.Drawing.Size(399, 44);
             this.B5.TabIndex = 2;
-            this.B5.TabStop = true;
             this.B5.Text = "En process där datorer lär sig från data för att förbättra \r\nprestanda.";
             this.B5.UseVisualStyleBackColor = true;
             // 
@@ -400,7 +388,6 @@
             this.A6.Name = "A6";
             this.A6.Size = new System.Drawing.Size(120, 24);
             this.A6.TabIndex = 1;
-            this.A6.TabStop = true;
             this.A6.Text = "På 1800-talet.";
             this.A6.UseVisualStyleBackColor = true;
             // 
@@ -412,7 +399,6 @@
             this.C6.Name = "C6";
             this.C6.Size = new System.Drawing.Size(372, 24);
             this.C6.TabIndex = 2;
-            this.C6.TabStop = true;
             this.C6.Text = "På 1970-talet som en del av mikrodatorevolutionen.";
             this.C6.UseVisualStyleBackColor = true;
             // 
@@ -424,7 +410,6 @@
             this.B6.Name = "B6";
             this.B6.Size = new System.Drawing.Size(289, 24);
             this.B6.TabIndex = 4;
-            this.B6.TabStop = true;
             this.B6.Text = "Under andra världskriget på 1940-talet.";
             this.B6.UseVisualStyleBackColor = true;
             // 
@@ -509,7 +494,6 @@
             this.A8.Name = "A8";
             this.A8.Size = new System.Drawing.Size(356, 24);
             this.A8.TabIndex = 10;
-            this.A8.TabStop = true;
             this.A8.Text = "Processorkraften fördubblas ungefär vartannat år.";
             this.A8.UseVisualStyleBackColor = true;
             // 
@@ -532,7 +516,6 @@
             this.C8.Name = "C8";
             this.C8.Size = new System.Drawing.Size(312, 44);
             this.C8.TabIndex = 12;
-            this.C8.TabStop = true;
             this.C8.Text = "Lagstiftning som reglerar användningen av\r\nelektronik i samhället.";
             this.C8.UseVisualStyleBackColor = true;
             // 
@@ -686,13 +669,14 @@
             this.button1.TabIndex = 17;
             this.button1.Text = "Lämna in provet";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1478, 916);
+            this.ClientSize = new System.Drawing.Size(1448, 691);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox12);
             this.Controls.Add(this.groupBox13);
